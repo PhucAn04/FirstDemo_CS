@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .hover-glow:hover {
+        box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+        transform: scale(1.02);
+        transition: all 0.3s ease;
+    }
+</style>
+
+<section style="background-color: #eee;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb" class="bg-body-tertiary rounded-3 p-3 card mb-4 hover-glow">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">User</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card mb-4 hover-glow">
+                    <div class="card-body text-center">
+                        <img src="~/images/avatar.png" alt="avatar"
+                             class="rounded-circle img-fluid" style="width: 150px;">
+                        <h5 class="my-3">Phạm Nguyễn Phúc Ân</h5>
+                        <p class="text-muted mb-1">Full Stack Developer</p>
+                        <p class="text-muted mb-4">Ho Chi Minh City</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <button type="button" class="btn btn-primary">Follow</button>
+                            <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="card mb-4 hover-glow">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3"><p class="mb-0">Full Name</p></div>
+                            <div class="col-sm-9"><p class="text-muted mb-0">Phạm Nguyễn Phúc Ân</p></div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3"><p class="mb-0">Student ID</p></div>
+                            <div class="col-sm-9"><p class="text-muted mb-0">2200004202</p></div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3"><p class="mb-0">Birthdate</p></div>
+                            <div class="col-sm-9"><p class="text-muted mb-0">05-04-2004</p></div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3"><p class="mb-0">Email</p></div>
+                            <div class="col-sm-9"><p class="text-muted mb-0">phucan2004@gmail.com</p></div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3"><p class="mb-0">Hobbies</p></div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">I like listening to music, watching Korean movies, and learning programming.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4 mb-md-0 hover-glow">
+                            <div class="card-body">
+                                <p class="mb-0">
+                                    <i class="bi bi-facebook me-2"></i>
+                                    <a href="https://www.facebook.com/pan.0504">facebook.com/pan.0504</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 mb-md-0 hover-glow">
+                            <div class="card-body">
+                                <p class="mb-0">
+                                    <i class="bi bi-github me-2"></i>
+                                    <a href="https://github.com/PhucAn04">github.com/PhucAn04</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
